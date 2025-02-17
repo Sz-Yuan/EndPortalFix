@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "endportalfix",
+	"version": "${version}",
+	"name": "EndPortalFix",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/endportalfix/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"szy.endportalfix.EndPortalFix"
+		]
+	},
+	"mixins": [
+		"endportalfix.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

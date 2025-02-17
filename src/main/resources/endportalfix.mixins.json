@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "szy.endportalfix.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"MixinTheEndPortalRenderer",
+		"MixinTheEndPortalBlockEntity"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
